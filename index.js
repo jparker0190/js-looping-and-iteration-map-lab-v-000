@@ -13,6 +13,6 @@ function nameToAttributes(drivers){
   return d
 }
 function attribtuesToPhrase(drivers){
-  const d = `${drivers.name}` is from `${drivers.hometown}`
+  const d = `${drivers.name} is from ${drivers.hometown}`
   return d
 }
