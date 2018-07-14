@@ -10,8 +10,7 @@ function nameToAttributes(drivers){
     return  {firstName: num.split(" ")[0], lastName: numsplit(" ")[1]}
 
   })
-  console.log(d)
-  return d
+
 }
 function attribtuesToPhrase(drivers){
   const d = drivers.map(function(num){
