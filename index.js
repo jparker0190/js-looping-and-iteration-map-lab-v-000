@@ -12,7 +12,7 @@ return drivers.map(function(num){
   })
 
 }
-function attribtuesToPhrase(drivers){
+function attributesToPhrase(drivers){
   return drivers.map(function(num){
     return `${num.name} is from ${num.hometown}`
   })
