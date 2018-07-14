@@ -14,8 +14,8 @@ function nameToAttributes(drivers){
 }
 function attribtuesToPhrase(drivers){
   const d = drivers.map(function(num){
-    `${num.name} is from ${num.hometown}`
+    return `${num.name} is from ${num.hometown}`
   })
-  
+
   return d
 }
